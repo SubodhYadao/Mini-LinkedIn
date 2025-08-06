@@ -21,8 +21,8 @@ This project is a simplified social media platform inspired by LinkedIn, allowin
 ### 1. Clone the Repository
 
 \`\`\`bash
-git clone <your-github-repo-link>
-cd mini-linkedin
+git clone https://github.com/SubodhYadao/Mini-LinkedIn.git
+cd Mini-linkedIn
 \`\`\`
 
 ### 2. Install Dependencies
@@ -41,16 +41,8 @@ pnpm install
 2.  Once your project is created, navigate to **Project Settings > API**.
 3.  Copy your `Project URL` and `anon public` key.
 4.  Create a `.env.local` file in the root of your project and add the following environment variables:
-
-  \`\`\`
-  NEXT_PUBLIC_SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL"
-  NEXT_PUBLIC_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
-  \`\`\`
-
 5.  **Run Database Migrations**:
-  Go to the **SQL Editor** in your Supabase project dashboard.
-  Open the `scripts/init-db.sql` file from this project and copy its content.
-  Paste the content into the Supabase SQL Editor and run it. This will create the `users` and `posts` tables, set up Row Level Security (RLS) policies, and add a trigger to automatically create a `public.users` entry when a new user signs up via Supabase Auth.
+
 
 ### 4. Run the Development Server
 

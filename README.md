@@ -73,10 +73,4 @@ This application is designed to be easily deployed to Vercel. Ensure your enviro
 2.  **Configure Environment Variables**: Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` to your Vercel project's environment variables.
 3.  **Deploy**: Vercel will automatically detect the Next.js project and deploy it.
 
-## Extra Features (Optional)
 
-*   **Real-time Posts**: Implement Supabase Realtime to show new posts instantly without page refresh.
-*   **Likes/Comments**: Add functionality for users to like or comment on posts.
-*   **Image Uploads**: Allow users to upload profile pictures or images with their posts using Supabase Storage.
-*   **Search Functionality**: Add a search bar to find users or posts.
-*   **Follow/Unfollow**: Implement a social graph for users to follow each other.

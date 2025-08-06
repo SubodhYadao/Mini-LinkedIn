@@ -2,6 +2,11 @@
 
 This project is a simplified social media platform inspired by LinkedIn, allowing users to register, log in, create text-only posts, and view public feeds and user profiles.
 
+## 🔗 Live Demo
+
+[Click here](https://mini-linkedin-wine.vercel.app/signup)
+
+
 ## Stack Used
 
 *   **Frontend Framework**: Next.js 15 (App Router)
